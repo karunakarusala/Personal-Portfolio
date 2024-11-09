@@ -4,10 +4,10 @@ import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import leaf from "../../Assets/Projects/leaf.png";
 import emotion from "../../Assets/Projects/emotion.png";
-import editor from "../../Assets/Projects/codeEditor.png";
-import chatify from "../../Assets/Projects/chatify.png";
+import editor from "../../Assets/Projects/Zomato-Clone.png";
+import chatify from "../../Assets/Projects/Dino-Dragon.png.png";
 import suicide from "../../Assets/Projects/suicide.png";
-import bitsOfCode from "../../Assets/Projects/blog.png";
+import bitsOfCode from "../../Assets/Projects/Library-Management-App.png";
 
 function Projects() {
   return (
@@ -25,9 +25,9 @@ function Projects() {
             <ProjectCard
               imgPath={chatify}
               isBlog={false}
-              title="Chatify"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-              ghLink="https://github.com/soumyajit4419/Chatify"
+              title="DINO vs Dragon: Collision of Titans"
+              description="A personal project that's simple yet fun and interactive. This game lets players experience an exciting face-off between a powerful dinosaur and a fire-breathing dragon. Built with engaging animations and easy controls, it’s designed to capture attention with each clash. Aimed at offering both fun and creativity, this project is a showcase of interactive design and gameplay."
+              ghLink="https://github.com/karunakarusala/DINO-DRANGON-GAME"
               demoLink="https://chatify-49.web.app/"
             />
           </Col>
@@ -36,9 +36,10 @@ function Projects() {
             <ProjectCard
               imgPath={bitsOfCode}
               isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
+              title="Library Management App"
+              description=
+              "A personal project built using the MERN stack, this Library Management App streamlines the management of students and books. It includes a Student Page for entering student details and a Book Library Page for cataloging books. All data is stored securely in MongoDB and managed through a Node.js backend, making the app fast and reliable. The Library Page integrates all entries, displaying student and book information in one place for easy tracking and management. Designed for functionality and ease of use, this app showcases skills in full-stack development with a focus on efficient data handling."
+              ghLink="https://github.com/karunakarusala/Library-Management-Application"
               demoLink="https://blogs.soumya-jit.tech/"
             />
           </Col>
@@ -47,14 +48,15 @@ function Projects() {
             <ProjectCard
               imgPath={editor}
               isBlog={false}
-              title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              ghLink="https://github.com/soumyajit4419/Editor.io"
+              title="Zomato Clone"
+              description="Zomato Clone
+This Zomato Clone is a full-stack application built to mimic the core functionalities of Zomato. Using the MERN stack, this project allows users to explore restaurants, browse menus, and see detailed information on dishes. Key features include a restaurant listing page, menu display, and user review system. Data is stored and managed with MongoDB and Node.js for seamless performance, while React and Express provide a responsive and dynamic front-end experience. This project highlights skills in building interactive, user-centered web applications with a focus on real-time data handling and modern design."
+              ghLink="https://github.com/karnakar22/zomato-clone-project"
               demoLink="https://editor.soumya-jit.tech/"              
             />
           </Col>
 
-          <Col md={4} className="project-card">
+          {/* <Col md={4} className="project-card">
             <ProjectCard
               imgPath={leaf}
               isBlog={false}
@@ -63,9 +65,9 @@ function Projects() {
               ghLink="https://github.com/soumyajit4419/Plant_AI"
               demoLink="https://plant49-ai.herokuapp.com/"
             />
-          </Col>
+          </Col> */}
 
-          <Col md={4} className="project-card">
+          {/* <Col md={4} className="project-card">
             <ProjectCard
               imgPath={suicide}
               isBlog={false}
@@ -74,9 +76,9 @@ function Projects() {
               ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
               // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
             />
-          </Col>
+          </Col> */}
 
-          <Col md={4} className="project-card">
+          {/* <Col md={4} className="project-card">
             <ProjectCard
               imgPath={emotion}
               isBlog={false}
@@ -86,7 +88,7 @@ function Projects() {
               ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
               // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
             />
-          </Col>
+          </Col> */}
         </Row>
       </Container>
     </Container>

@@ -1,4 +1,4 @@
-<h2 align="center">
+<!-- <h2 align="center">
   Portfolio Website - v2.0<br/>
   <a href="https://soumyajit.vercel.app/" target="_blank">soumyajit.tech</a>
 </h2>
@@ -73,4 +73,92 @@ You will find all the components used and you can edit your information accordin
 
 Give a ⭐ if you like this website!
 
-<a href="https://www.buymeacoffee.com/soumyajit4419" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-violet.png" alt="Buy Me A Coffee" height= "60px" width= "217px" ></a>
+<a href="https://www.buymeacoffee.com/soumyajit4419" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-violet.png" alt="Buy Me A Coffee" height= "60px" width= "217px" ></a> -->
+# Portfolio Website
+
+Welcome to my personal portfolio! This is a showcase of my work, skills, and projects that I’ve built over time.
+
+## Table of Contents
+- [Home](#Introduction)
+- [About Me](#about-me)
+- [Technologies Used](#technologies-used)
+- [Resume](#My Resume)
+- [Projects](#project i have worked on)
+- [Contact](#contact)
+
+## About Me
+Hi! I'm **Karunakar Usala**, a passionate web developer skilled in both front-end and back-end technologies. I specialize in building full-stack applications using the **MERN stack** (MongoDB, Express.js, React.js, Node.js) and other modern web technologies.
+
+In this portfolio, you’ll find a selection of projects I’ve worked on, including web apps, game projects, and more.
+
+## Technologies Used
+- **Frontend:** HTML, CSS, JavaScript, React.js, Tailwind CSS, Bootstrap
+- **Backend:** Node.js, Express.js
+- **Database:** MongoDB
+- **Version Control:** Git, GitHub
+- **Deployment:** Netlify
+
+## Features
+- **Interactive Design:** A dynamic and responsive interface using React.js and Tailwind CSS.
+- **User Interaction:** Forms and dynamic data display powered by MongoDB.
+- **Backend Integration:** Data storage and management through Node.js and Express.js.
+- **Project Showcases:** View details of my projects, including live demos and source code.
+
+## Installation
+
+To run this project locally, follow these steps:
+
+1. Clone the repository:
+   ```bash
+   git clone  https://github.com/karunakarusala
+
+Navigate to the project directory:
+
+bash
+Copy code
+cd portfolio-website
+Install the required dependencies:
+
+bash
+Copy code
+npm install
+Run the app:
+
+bash
+Copy code
+npm start
+Your application should now be running on http://localhost:3000.
+
+Project Structure
+Here’s an overview of the project structure:
+
+portfolio-website/
+├── src/
+│   ├── components/         # React components
+│   ├── pages/              # Pages like About, Projects, etc.
+│   └── App.js              # Main React app
+├── public/                 # Static assets
+├── package.json            # Project dependencies and scripts
+├── README.md               # Project documentation
+└── .gitignore              # Files to ignore in git
+Contact
+Feel free to reach out to me at:
+
+Email: karunakarusala@gmail.com
+LinkedIn: http://www.linkedin.com/in/karunakar-usala-230b4a292
+GitHub: https://github.com/karunakarusala
+
+Thank you for visiting my portfolio! Feel free to explore my projects and get in touch for any collaborations or opportunities.
+
+Make sure to replace the placeholder text (like `your-username`, `your-email@example.com`) with your actual information. This will give your GitHub repository a well-structured and professional `README.md` file.
+
+
+
+
+
+
+
+
+
+
+"# Personal-Portfolio" 
