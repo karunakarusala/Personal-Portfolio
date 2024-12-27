@@ -8,6 +8,7 @@ import Chatapp from "../../Assets/Projects/Chatapp.png";
 import editor from "../../Assets/Projects/Zomato-Clone.png";
 import chatify from "../../Assets/Projects/Dino-Dragon.png.png";
 import Hirrd_jobportal from "../../Assets/Projects/Hirrd_jobportal.png";
+import Library_Management_App from "../../Assets/Projects/Library_Management_App.png";
 
 function Projects() {
   return (
@@ -69,8 +70,8 @@ Profile management: create and update user profiles.
 Employer functionalities: post, update, and delete job listings.
 Real-time notifications for job updates.
 This project showcases my understanding of job portal systems and strengthens my ability to create scalable, full-stack web applications."
-              ghLink="https://github.com/karunakarusala/DINO-DRANGON-GAME"
-              demoLink="https://chatify-49.web.app/"
+              ghLink="https://github.com/karunakarusala/Hirrd-Job_portal"
+              // demoLink="https://chatify-49.web.app/"
             />
           </Col>
           <Col md={4} className="project-card">
@@ -95,19 +96,19 @@ Score tracking to keep users engaged.
 User-friendly interface with intuitive controls.
 This project highlights my ability to build fun, visually appealing, and interactive web applications using modern frontend tools."
               ghLink="https://github.com/karunakarusala/DINO-DRANGON-GAME"
-              demoLink="https://chatify-49.web.app/"
+              // demoLink="https://chatify-49.web.app/"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={bitsOfCode}
+              imgPath={Library_Management_App}
               isBlog={false}
               title="Library Management App"
               description=
               "A personal project built using the MERN stack, this Library Management App streamlines the management of students and books. It includes a Student Page for entering student details and a Book Library Page for cataloging books. All data is stored securely in MongoDB and managed through a Node.js backend, making the app fast and reliable. The Library Page integrates all entries, displaying student and book information in one place for easy tracking and management. Designed for functionality and ease of use, this app showcases skills in full-stack development with a focus on efficient data handling."
               ghLink="https://github.com/karunakarusala/Library-Management-Application"
-              demoLink="https://blogs.soumya-jit.tech/"
+              // demoLink="https://blogs.soumya-jit.tech/"
             />
           </Col>
 
