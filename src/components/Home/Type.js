@@ -9,6 +9,7 @@ function Type() {
           "Software Developer",          
           "MERN Stack Developer",
           "Front End Developer",
+        "Backend Developer",
           "Python Developer"
         ],
         autoStart: true,

@@ -4,10 +4,10 @@ import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import leaf from "../../Assets/Projects/leaf.png";
 import emotion from "../../Assets/Projects/emotion.png";
+import Chatapp from "../../Assets/Projects/Chatapp.png";
 import editor from "../../Assets/Projects/Zomato-Clone.png";
 import chatify from "../../Assets/Projects/Dino-Dragon.png.png";
-import suicide from "../../Assets/Projects/suicide.png";
-import bitsOfCode from "../../Assets/Projects/Library-Management-App.png";
+import Hirrd_jobportal from "../../Assets/Projects/Hirrd_jobportal.png";
 
 function Projects() {
   return (
@@ -21,12 +21,79 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+        <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={Chatapp}
+              isBlog={false}
+              title="Talk-A-Tive Chat App"
+              description=
+              "Talk-A-Tive Chat App
+A real-time chat application built using the MERN stack to create an interactive and user-friendly platform for personal and group chats.
+Tech Stack: 
+Frontend: React.js, Redux Toolkit, Tailwind CSS, Shadcn/UI for smooth and beautiful design.
+Backend: Express.js, MongoDB, and Socket.IO for real-time messaging.
+Tools: Postman for API testing.
+Features:
+Clean, simple, and responsive UI.
+Fast real-time messaging.
+Search and connect with users.
+Personal chats and group chats.
+Group management: create, update names, add/remove members (admin only).
+Profile viewing with user details.
+Instant notifications for messages.
+This project showcases my skills in building scalable and interactive web apps with real-time communication."
+ghLink="https://github.com/karunakarusala/TALK-A-TIVE-CHAT-APP"
+              // demoLink="https://editor.soumya-jit.tech/"              
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={Hirrd_jobportal}
+              isBlog={false}
+              title="Hirrd Job-Portal"
+              description="A job portal platform designed to learn how such systems work and enhance my skills in building interactive, full-stack applications with the MERN stack.
+
+Tech Stack:
+
+Frontend: React.js, Redux Toolkit, Tailwind CSS, Shadcn/UI for styling and state management.
+Backend: Express.js, MongoDB for data handling.
+APIs: RESTful APIs for communication between frontend and backend.
+Tools: Postman for testing APIs.
+Features:
+
+User-friendly and responsive interface.
+Job listings with search and filter options.
+User authentication for job seekers and employers.
+Job applications: submit and track applications.
+Profile management: create and update user profiles.
+Employer functionalities: post, update, and delete job listings.
+Real-time notifications for job updates.
+This project showcases my understanding of job portal systems and strengthens my ability to create scalable, full-stack web applications."
+              ghLink="https://github.com/karunakarusala/DINO-DRANGON-GAME"
+              demoLink="https://chatify-49.web.app/"
+            />
+          </Col>
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={chatify}
               isBlog={false}
               title="DINO vs Dragon: Collision of Titans"
-              description="A personal project that's simple yet fun and interactive. This game lets players experience an exciting face-off between a powerful dinosaur and a fire-breathing dragon. Built with engaging animations and easy controls, it’s designed to capture attention with each clash. Aimed at offering both fun and creativity, this project is a showcase of interactive design and gameplay."
+              description="Dino-Dragon Game: Collision of Titans
+An interactive web-based game built using modern frontend technologies to enhance my skills in creating engaging and responsive user experiences.
+
+Tech Stack:
+
+Tailwind CSS and Shadcn/UI for sleek and responsive styling.
+React.js for building interactive components.
+RESTful APIs for fetching game data and images.
+Features:
+
+Smooth and responsive design with vibrant visuals.
+Dynamic gameplay with Dino and Dragon characters.
+Collision detection for interactive gaming mechanics.
+Score tracking to keep users engaged.
+User-friendly interface with intuitive controls.
+This project highlights my ability to build fun, visually appealing, and interactive web applications using modern frontend tools."
               ghLink="https://github.com/karunakarusala/DINO-DRANGON-GAME"
               demoLink="https://chatify-49.web.app/"
             />
@@ -44,17 +111,7 @@ function Projects() {
             />
           </Col>
 
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={editor}
-              isBlog={false}
-              title="Zomato Clone"
-              description="Zomato Clone
-This Zomato Clone is a full-stack application built to mimic the core functionalities of Zomato. Using the MERN stack, this project allows users to explore restaurants, browse menus, and see detailed information on dishes. Key features include a restaurant listing page, menu display, and user review system. Data is stored and managed with MongoDB and Node.js for seamless performance, while React and Express provide a responsive and dynamic front-end experience. This project highlights skills in building interactive, user-centered web applications with a focus on real-time data handling and modern design."
-              ghLink="https://github.com/karnakar22/zomato-clone-project"
-              demoLink="https://editor.soumya-jit.tech/"              
-            />
-          </Col>
+          
 
           {/* <Col md={4} className="project-card">
             <ProjectCard
@@ -76,7 +133,7 @@ This Zomato Clone is a full-stack application built to mimic the core functional
               ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
               // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
             />
-          </Col> */}
+          </Col> */} 
 
           {/* <Col md={4} className="project-card">
             <ProjectCard
