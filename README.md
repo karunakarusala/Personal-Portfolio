@@ -87,7 +87,7 @@ Welcome to my personal portfolio! This is a showcase of my work, skills, and pro
 - [Contact](#contact)
 
 ## About Me
-Hi! I'm **Karunakar Usala**, a passionate web developer skilled in both front-end and back-end technologies. I specialize in building full-stack applications using the **MERN stack** (MongoDB, Express.js, React.js, Node.js) and other modern web technologies.
+Hi! I'm **Karunakar Usala**, a passionate web developer skilled in both front-end and back-end technologies. I specialize in building full-stack applications using the **MERN stack** (MongoDB, Express.js, React.js, Node.js) and other modern web technologies like Django/Flask.
 
 In this portfolio, you’ll find a selection of projects I’ve worked on, including web apps, game projects, and more.
 
