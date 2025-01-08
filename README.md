@@ -116,14 +116,13 @@ Navigate to the project directory:
 
 
 cd portfolio-website
+
 Install the required dependencies:
-
-=
 npm install
+
 Run the app:
-
-
 npm start
+
 Your application should now be running on http://localhost:3000.
 
 Project Structure
