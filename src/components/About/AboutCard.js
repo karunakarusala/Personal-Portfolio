@@ -29,7 +29,6 @@ function AboutCard() {
               <ImPointRight /> Travelling
             </li>
           </ul>
-
           <p style={{ color: "rgb(155 126 172)" }}>
             "I don’t just write code; I build solutions that make a difference.{" "}
           </p>
