@@ -114,19 +114,15 @@ To run this project locally, follow these steps:
 
 Navigate to the project directory:
 
-bash
-Copy code
+
 cd portfolio-website
+
 Install the required dependencies:
-
-bash
-Copy code
 npm install
-Run the app:
 
-bash
-Copy code
+Run the app:
 npm start
+
 Your application should now be running on http://localhost:3000.
 
 Project Structure
